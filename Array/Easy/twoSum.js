@@ -3,6 +3,7 @@ let nums = [2, 7, 11, 15];
 let target = 9;
 
 // output = [1,0]
+// Use hashmap to check if the current element is present in array
 
 function twoSum(ar, k) {
   let obj = {};

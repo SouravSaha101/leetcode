@@ -1,5 +1,9 @@
 // https://leetcode.com/problems/valid-parentheses/
 
+// Use stack to store the opening brackets.
+// Pop the stack when we see a closing bracket.
+// If the stack is empty, we know that the string is valid.
+
 var isValid = function (s) {
   let obj = {
     "}": "{",

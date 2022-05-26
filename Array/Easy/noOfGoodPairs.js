@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/number-of-good-pairs/
 
+// Use HashMap to store the count of each element in the array.
+
 var numIdenticalPairs = function (nums) {
   let len = nums.length;
   let count = 0;
