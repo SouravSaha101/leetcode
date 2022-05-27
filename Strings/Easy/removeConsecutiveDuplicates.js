@@ -1,5 +1,7 @@
 // https://www.geeksforgeeks.org/remove-consecutive-duplicates-string/
 
+// Check next char is the same as current char, if not, add it to the result.
+
 function removeConsecutive(str){
     let len = str.length;
     let s = ""

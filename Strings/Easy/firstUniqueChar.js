@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/first-unique-character-in-a-string/
 
+// Use hashmap to store the char and its frequency
+
 var firstUniqChar = function (s) {
   let obj = {};
 

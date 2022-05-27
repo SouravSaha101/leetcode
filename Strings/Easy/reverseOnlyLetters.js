@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/reverse-only-letters/
 
+// Swap the first and last char of a string, if the first or last letter is not a letter, increase the pointer.
+
 var reverseOnlyLetters = function (s) {
   let low = 0;
   let high = s.length - 1;
