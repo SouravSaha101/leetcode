@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/maximum-subarray/
 
 // Kadane’s algorithm is a simple algorithm for finding the maximum sum of a contiguous subsequence in an array.
-
+// Greedy
 
 let nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
 // Output: 6
